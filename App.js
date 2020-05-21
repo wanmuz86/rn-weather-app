@@ -1,9 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Home from './components/home';
+import Navigator from './routes/tabs';
 
 export default function App() {
   return (
-    <Home/>
+    <Navigator/>
   );
 }
